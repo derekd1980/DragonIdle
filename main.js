@@ -107,12 +107,15 @@ function draw()
 {
     // draw canvas
     drawCanvas();
+
+drawGrid();
+
     //draw power bar
     powBar.draw();
     //draw player 
     player.draw();
     enemy.draw(); 
-    drawGrid();
+   
     drawText("fps"+fps,25,10,25);
     
 }
